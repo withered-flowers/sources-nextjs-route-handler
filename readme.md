@@ -8,9 +8,9 @@ ini hanyalah file yang digunakan dalam tutorial NextJS v15 - Route Handler
 1. Install package `drizzle-orm` dan `@libsql/client`
 1. Install package dev `drizzle-kit tsx`
 1. bikin file .env untuk mengisi DB_FILE_NAME
-1. bikin file `src/db/config/drizzle.ts` untuk bikin file configurasi / instance drizzle
 1. bikin file `src/db/schemas/index.ts` untuk membuat informasi table yang akan dibuat
 1. bikin file `src/db/schemas/type.ts` untuk membuat tipe data Select dan Insert
+1. bikin file `src/db/config/drizzle.ts` untuk bikin file configurasi / instance drizzle
 1. bikin file `drizzle.config.ts` pada root folder
 1. jalankan `npx drizzle-kit generate`
 1. jalankan `npx drizzle-kit migrate`
@@ -25,3 +25,6 @@ ini hanyalah file yang digunakan dalam tutorial NextJS v15 - Route Handler
 # Bikin api
 
 1. bikin `src/app/api/route.ts`
+1. bikin kembalian Hello World
+1. coba tembak dengan postman
+1. bikin `src/app/api/users/route.ts`
