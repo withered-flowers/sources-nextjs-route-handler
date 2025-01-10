@@ -1,5 +1,5 @@
 @BASE_URL=http://localhost:3000/api
-@USER_ID=655b16efb33bbc4838928d5a
+@USER_ID=2
 
 ###
 
